@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 import { HeaderContainer } from "./styles";
 
-export default function Header() {
-  return <HeaderContainer>
-    <div className="logo">
+import logoImg from "../../../assets/logo.png";
 
-    </div>
-    <nav>
-      <Link to="/">Dashboard</Link>
-      <Link to="/farmer">Produtores</Link>
-    </nav>
-  </HeaderContainer>;
+export default function Header() {
+  return (
+    <HeaderContainer>
+      <div className="content">
+        <div className="logo">
+          <img src={logoImg} alt="" />
+        </div>
+        <nav>
+          <Link to="/">Dashboard</Link>
+          <Link to="/farmer">Produtores</Link>
+        </nav>
+      </div>
+    </HeaderContainer>
+  );
 }
