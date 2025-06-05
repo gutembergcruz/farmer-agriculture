@@ -5,6 +5,7 @@ export const TitleContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin: 2px auto;
+    width: 100%;
     button{
         height: 40px;
         border-radius: 5px;

@@ -6,11 +6,16 @@ export const DashboardContainer = styled.div`
     width: 100%;
     >div.content{
         width: 800px;
-        margin: 0 auto;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 `;
 
-export const Cards = styled.div`
+export const Flex = styled.div`
     display: flex;
     gap: 20px;
 `;
