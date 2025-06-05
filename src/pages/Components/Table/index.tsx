@@ -1,5 +1,6 @@
 import { FiEdit, FiTrash } from "react-icons/fi";
 import { TableContainer } from "./styles";
+import datas from "./datas.json";
 
 export default function Table() {
   return (
@@ -15,76 +16,24 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Lorem Ipsum</td>
-            <td>000.000.000-00</td>
-            <td>124 hc</td>
-            <td>Manaus/AM</td>
-            <td>
-              <button>
-                <FiEdit color="#6D4C41" />
-              </button>
-              <button>
-                <FiTrash color="red" />
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem Ipsum</td>
-            <td>000.000.000-00</td>
-            <td>124 hc</td>
-            <td>Manaus/AM</td>
-            <td>
-              <button>
-                <FiEdit color="#6D4C41" />
-              </button>
-              <button>
-                <FiTrash color="red" />
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem Ipsum</td>
-            <td>000.000.000-00</td>
-            <td>124 hc</td>
-            <td>Manaus/AM</td>
-            <td>
-              <button>
-                <FiEdit color="#6D4C41" />
-              </button>
-              <button>
-                <FiTrash color="red" />
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem Ipsum</td>
-            <td>000.000.000-00</td>
-            <td>124 hc</td>
-            <td>Manaus/AM</td>
-            <td>
-              <button>
-                <FiEdit color="#6D4C41" />
-              </button>
-              <button>
-                <FiTrash color="red" />
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem Ipsum</td>
-            <td>000.000.000-00</td>
-            <td>124 hc</td>
-            <td>Manaus/AM</td>
-            <td>
-              <button>
-                <FiEdit color="#6D4C41" />
-              </button>
-              <button>
-                <FiTrash color="red" />
-              </button>
-            </td>
-          </tr>
+          {datas.map((data, index) => (
+            <tr key={index}>
+              <td>{data.nome}</td>
+              <td>{data.cpf_cnpj}</td>
+              <td>{data.area_total}</td>
+              <td>{data.cidade_estado}</td>
+              <td>
+                <button>
+                  <button>
+                    <FiEdit color="#6D4C41" />
+                  </button>
+                  <button>
+                    <FiTrash color="red" />
+                  </button>
+                </button>
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </TableContainer>

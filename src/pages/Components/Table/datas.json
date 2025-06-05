@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "João da Silva",
+    "cpf_cnpj": "123.456.789-00",
+    "area_total": "150 hectares",
+    "cidade_estado": "Ribeirão Preto/SP"
+  },
+  {
+    "nome": "Maria Oliveira",
+    "cpf_cnpj": "987.654.321-00",
+    "area_total": "200 hectares",
+    "cidade_estado": "Uberlândia/MG"
+  },
+  {
+    "nome": "Fazenda Boa Esperança",
+    "cpf_cnpj": "12.345.678/0001-99",
+    "area_total": "350 hectares",
+    "cidade_estado": "Campo Grande/MS"
+  },
+  {
+    "nome": "Carlos Souza",
+    "cpf_cnpj": "321.654.987-00",
+    "area_total": "180 hectares",
+    "cidade_estado": "Londrina/PR"
+  },
+  {
+    "nome": "Agropecuária São José",
+    "cpf_cnpj": "98.765.432/0001-88",
+    "area_total": "420 hectares",
+    "cidade_estado": "Barreiras/BA"
+  },
+  {
+    "nome": "Fernanda Lima",
+    "cpf_cnpj": "456.789.123-00",
+    "area_total": "130 hectares",
+    "cidade_estado": "Chapecó/SC"
+  },
+  {
+    "nome": "Fazenda Nova Vida",
+    "cpf_cnpj": "11.222.333/0001-44",
+    "area_total": "600 hectares",
+    "cidade_estado": "Palmas/TO"
+  },
+  {
+    "nome": "Ricardo Almeida",
+    "cpf_cnpj": "789.123.456-00",
+    "area_total": "175 hectares",
+    "cidade_estado": "Juazeiro/BA"
+  },
+  {
+    "nome": "Empresa AgroVale",
+    "cpf_cnpj": "77.888.999/0001-11",
+    "area_total": "540 hectares",
+    "cidade_estado": "Petrolina/PE"
+  },
+  {
+    "nome": "Luciana Barros",
+    "cpf_cnpj": "654.321.987-00",
+    "area_total": "210 hectares",
+    "cidade_estado": "Balsas/MA"
+  }
+]
