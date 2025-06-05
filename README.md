@@ -3,6 +3,8 @@
 
 Farmer Agriculture é uma aplicação web desenvolvida com **React**, **TypeScript** e **Vite**, projetada para facilitar o gerenciamento de propriedades agrícolas. A interface permite visualizar e interagir com informações de produtores, áreas de plantio e ações administrativas de forma prática e moderna.
 
+![image](https://github.com/user-attachments/assets/a482d692-5b2b-4233-aa1c-216fbbd7625b)
+
 ---
 
 ## 🔗 Acesse Online
