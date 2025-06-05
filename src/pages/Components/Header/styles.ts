@@ -30,4 +30,13 @@ export const HeaderContainer = styled.header`
         }
     }
   }
+  @media screen and (max-width: 780px) {
+    >div.content{
+      padding: 0px 10px;
+    }
+    nav{
+      gap: 2px;
+      flex-direction: column;
+    }
+  }
 `;

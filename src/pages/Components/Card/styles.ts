@@ -26,4 +26,7 @@ export const CardContainer = styled.div`
     color: #3e2723;
     font-weight: 600;
   }
+  @media screen and (max-width: 480px) {
+    width: 95%;
+  }
 `;
