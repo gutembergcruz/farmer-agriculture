@@ -12,6 +12,9 @@ export const TitleContainer = styled.div`
         border: none;
         background-color: #6D4C41;
         padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
         cursor: pointer;
         &:hover{
             background-color: #3E2723;

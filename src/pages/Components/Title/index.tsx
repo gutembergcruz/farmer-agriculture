@@ -1,3 +1,4 @@
+import { FiPlus } from "react-icons/fi";
 import { TitleContainer } from "./styles";
 
 interface TitleProps {
@@ -9,7 +10,7 @@ export default function Title({ haveButton, title }: TitleProps) {
   return (
     <TitleContainer>
       <h2>{title}</h2>
-      {haveButton && <button>NovoProdutor</button>}
+      {haveButton && <button><FiPlus />Novo Produtor</button>}
     </TitleContainer>
   );
 }

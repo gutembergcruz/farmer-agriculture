@@ -10,7 +10,6 @@ export const FarmerContainer = styled.div`
         display: flex;
         flex-direction: column;
         gap: 20px;
-        align-items: flex-start;
-        justify-content: flex-start;
+        
     }
 `;
